@@ -1,0 +1,24 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(29, 29, 29);
+  transform: scale(0);
+  transition: transform 0.5s;
+}
+
+.modal__content {
+  background-color: #fff;
+  width: 50%;
+  height: 50%;
+  padding: 1em;
+}
+
+.modal--show {
+  transform: scale(1);
+}
